@@ -1,4 +1,7 @@
-public class songModel {
+package project.spring;
+
+
+public class SongModel {
 
     String title;
     String album;
@@ -7,7 +10,7 @@ public class songModel {
     String year;
    
 
-    void setSongDeets(String title, album, artist, genre, year){
+    void setSongDeets(String title, album, artist, genre, year) {
         this.title = title;
         this.album = album;
         this.genre = genre;
