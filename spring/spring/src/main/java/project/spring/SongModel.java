@@ -1,20 +1,40 @@
-public class songModel() {
+public class songModel {
 
     String title;
-    String artist;
     String album;
+    String artist;
     String genre;
-    String songID;
-    String albumID;
-    String artistID;
-    String genreID;
+    String year;
+   
 
-    this.title = title;
-    this.artist = artist;
-    this.album = album;
-    this.genre = genre;
-    this.songID = songID;
-    this.albumID = albumID;
-    this.artistID = artistID;
-    this.genreID = genreID;
+    void setSongDeets(String title, album, artist, genre, year){
+        this.title = title;
+        this.album = album;
+        this.genre = genre;
+        this.artist = artist;
+        this.year = year;
+    }
+
+    String getTitle(String title){
+        return this.title;
+    }
+
+    String getAlbum(String album){
+        return this.album;
+    }
+
+    String getArtist(String artist){
+        return this.artist;
+    }
+
+    String getGenre(String genre){
+        return this.genre;
+    }
+
+    String getYear(String year){
+        return this.year;
+    }
+
+
+
 }
